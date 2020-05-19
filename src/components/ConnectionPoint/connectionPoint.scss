@@ -1,0 +1,149 @@
+$scale : .55;
+$onColor: #2CD5C4;
+.overallConnection{
+    font-size: 100px;
+    color:grey;
+    
+    width:214px*$scale;
+    height:210px*$scale;
+     padding:20px*$scale 10px*$scale 20px*$scale 30px*$scale;
+     background-color: rgb(206, 204, 204);
+     border:4px solid rgb(146, 146, 146);
+     border-radius: 50%;
+     box-shadow:inset 0 0 20px #000000;
+     z-index:12;
+    }
+    .overallConnection_animate{
+    animation:3s infinite outterPulse;
+    color:rgb(36, 36, 36);
+    border:4px solid rgb(36, 36, 36);
+    background: rgb(255,255,255);
+    background: linear-gradient(61deg, rgba(255,255,255,1) 0%, rgba(219,219,219,1) 72%, rgba(121,121,121,1) 100%);    
+}
+    .imageBuild{
+        width:160px*$scale;
+        height:120px*$scale;
+        position: relative;
+        border:none;        
+    }
+
+    .iconPiece{
+        position: absolute;
+    }
+
+
+    .icon-signal_tower{
+       top:75px*$scale;
+       left:34px*$scale;
+       font-size: 90px*$scale;
+      }
+      .icon-signal_inner {
+        top:31px*$scale;
+        left:44.2px*$scale;
+       font-size: 45px*$scale;
+      }
+      .icon-signal_inner_animate {
+        animation: 3s linear infinite signalMoveBottom;
+        animation-delay: 0s;
+      }
+      .icon-signal_mid {
+        top:21.8px*$scale;
+        left:21.2px*$scale;
+       font-size: 65px*$scale;
+      }
+      .icon-signal_mid_animate {
+        animation: 3s linear infinite signalMoveMid;
+        animation-delay: 1s;
+      }
+
+
+      .icon-signal_outter {
+        top:5px*$scale;
+        left:1px*$scale;
+       font-size: 100px*$scale;
+       
+      }
+      .icon-signal_outter_animate {
+        animation: 3s linear infinite signalMoveTop;
+        
+        animation-delay: 2s;
+
+      }
+
+
+      .imageBuild::after{
+          content: "";
+          position: absolute;
+	top: 2px;
+    left: 2px;
+    margin-left:-32.5px*$scale;
+    margin-top:-23px*$scale;
+	width:160px*$scale + 40px*$scale;
+    height:(160px*$scale + 40px*$scale)/2;
+    border-top-left-radius: (160px*$scale + 40px*$scale)*2;
+    border-top-right-radius: (160px*$scale + 40px*$scale)*2;
+    
+	background: linear-gradient(rgba(255, 255, 255, 0.918), rgba(255, 255, 255, 0.123));
+      }
+
+      
+
+
+
+
+
+
+
+
+
+
+
+      @keyframes signalMoveBottom{
+
+        49%{
+            color:grey;
+            text-shadow:none;
+        }
+        50%{
+            color:$onColor;
+            text-shadow: 0 0 10px white, 0 0 5px white, 0 0 6px $onColor, 0 0 8px $onColor, 0 0 10px 
+        }
+    }
+        @keyframes signalMoveMid{
+        49%{
+            color:grey;
+            text-shadow:none;
+        }
+        50%{
+            color:$onColor;
+            text-shadow: 0 0 10px white, 0 0 5px white, 0 0 6px $onColor, 0 0 8px $onColor, 0 0 10px 
+        }
+    }
+    @keyframes signalMoveTop{
+        49%{
+            color:grey;
+            text-shadow:none;
+        }
+        50%{
+            color:$onColor;
+            text-shadow: 0 0 10px white, 0 0 5px white, 0 0 6px $onColor, 0 0 8px $onColor, 0 0 10px 
+        }
+
+
+      }
+
+
+      @keyframes outterPulse{
+
+        0%{
+            border-color: rgb(36, 36, 36);
+        }
+        50%{
+            
+            border-color: $onColor;
+         
+        }
+        100%{
+            border-color: rgb(36, 36, 36);
+        }
+    }

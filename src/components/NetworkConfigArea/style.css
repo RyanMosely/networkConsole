@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+/* .networkConfigContainer {
+  overflow: scroll; }
+  952
+  
+  */
+/* .networkConfigContainer {
+  overflow: scroll; } */
+@media only screen and (max-width: 799px) and (min-width: 768px) {
+  .networkConfigContainer {
+    /* overflow: visible; */
+    width: 528px; } }
+
+@media only screen and (max-width: 849px) and (min-width: 800px) {
+  .networkConfigContainer {
+    /* overflow: visible; */
+    width: 558px; } }
+
+@media only screen and (max-width: 899px) and (min-width: 850px) {
+  .networkConfigContainer {
+    /* overflow: visible; */
+    width: 612px; } }
+
+@media only screen and (max-width: 952px) and (min-width: 900px) {
+  .networkConfigContainer {
+    /* overflow: visible; */
+    width: 655px; } }
+
+@media only screen and (max-width: 1162px) and (min-width: 992px) {
+  .networkConfigContainer {
+    /* overflow: visible; */
+    width: 752px; } }
+
+@media only screen and (max-width: 1356px) and (min-width: 1200px) {
+  .networkConfigContainer {
+    /* overflow: visible; */
+    width: 955px; } }

@@ -1,0 +1,261 @@
+$animationTime:3s;
+$onColor: rgb(40, 231, 225);
+  .lightUpPoint1{
+    height:15px;
+    width:20px;
+    position: absolute;
+    
+    background-color:rgb(231, 231, 231);
+    box-shadow: inset 0 0 3px rgb(129, 129, 129);
+    border-radius:10px;
+    
+    
+}
+
+
+.point1-1{
+  left:225px;
+  top:390px;
+  
+  
+  
+  .shadowBox{
+      content:"";
+      width: 100%;
+      height:100%;
+      position: absolute;
+      left:0px;
+      top:0px;
+      border-radius:10px;
+      background-color: rgba(253, 253, 253, 0);
+      
+  }
+  
+}
+.point1-1_animated{
+  animation:$animationTime ease-out infinite lightUpDot;
+  .shadowBox{ 
+    animation:$animationTime ease-out infinite lightUpDotShadow;
+      animation-delay: $animationTime * (0/6); 
+  }
+  animation-delay: $animationTime * (0/6);
+}
+
+.point1-1{
+  left:177.5px;
+  top:390px;
+  
+  
+  .shadowBox{
+      content:"";
+      width: 100%;
+      height:100%;
+      position: absolute;
+      left:0px;
+      top:0px;
+      border-radius:10px;
+      background-color: rgba(253, 253, 253, 0);
+      
+  }
+  
+}
+.point1-1_animated{
+  animation:$animationTime ease-out infinite lightUpDot;
+  .shadowBox{ 
+    animation:$animationTime ease-out infinite lightUpDotShadow;
+      animation-delay: $animationTime * (1/6); 
+  }
+  animation-delay: $animationTime * (1/6);
+}
+
+.point1-2{
+  left:130px;
+  top:390px;
+  
+  
+  .shadowBox{
+      content:"";
+      width: 100%;
+      height:100%;
+      position: absolute;
+      left:0px;
+      top:0px;
+      border-radius:10px;
+      background-color: rgba(253, 253, 253, 0);
+      
+  }
+  
+}
+.point1-2_animated{
+  animation:$animationTime ease-out infinite lightUpDot;
+  .shadowBox{ 
+    animation:$animationTime ease-out infinite lightUpDotShadow;
+      animation-delay: $animationTime * (2/6); 
+  }
+  animation-delay: $animationTime * (2/6);
+}
+
+.point1-3{
+  left:100px;
+  top:350px;
+  transform: rotate(90deg);
+  
+  
+  .shadowBox{
+      content:"";
+      width: 100%;
+      height:100%;
+      position: absolute;
+      left:0px;
+      top:0px;
+      border-radius:10px;
+      background-color: rgba(253, 253, 253, 0);
+      
+  }
+
+}
+
+.point1-3_animated{
+  animation:$animationTime ease-out infinite lightUpDot;
+  .shadowBox{ 
+    animation:$animationTime ease-out infinite lightUpDotShadow;
+      animation-delay: $animationTime * (3/6); 
+  }
+  animation-delay: $animationTime * (3/6);
+}
+
+
+.point1-4{
+  left:100px;
+  top:302.5px;
+  transform: rotate(90deg);
+  
+  
+  
+  .shadowBox{
+      content:"";
+      width: 100%;
+      height:100%;
+      position: absolute;
+      left:0px;
+      top:0px;
+      border-radius:10px;
+      background-color: rgba(253, 253, 253, 0);
+     
+  }
+  
+}
+.point1-4_animated{
+  animation:$animationTime ease-out infinite lightUpDot;
+  .shadowBox{ 
+    animation:$animationTime ease-out infinite lightUpDotShadow;
+      animation-delay: $animationTime * (4/6); 
+  }
+  animation-delay: $animationTime * (4/6);
+}
+
+.point1-5{
+  left:100px;
+  top:255px;
+  transform: rotate(90deg);
+  
+  
+  
+  .shadowBox{
+      content:"";
+      width: 100%;
+      height:100%;
+      position: absolute;
+      left:0px;
+      top:0px;
+      border-radius:10px;
+      background-color: rgba(253, 253, 253, 0);
+      
+  }
+  
+}
+.point1-5_animated{
+  animation:$animationTime ease-out infinite lightUpDot;
+  .shadowBox{ 
+    animation:$animationTime ease-out infinite lightUpDotShadow;
+      animation-delay: $animationTime * (5/6); 
+  }
+  animation-delay: $animationTime * (5/6);
+}
+
+.point1-6{
+  left:100px;
+  top:207.5px;
+  transform: rotate(90deg);
+  
+  
+  
+  .shadowBox{
+      content:"";
+      width: 100%;
+      height:100%;
+      position: absolute;
+      left:0px;
+      top:0px;
+      border-radius:10px;
+      background-color: rgba(253, 253, 253, 0);
+      
+  }
+ 
+}
+.point1-6_animated{
+  animation:$animationTime ease-out infinite lightUpDot;
+  .shadowBox{ 
+    animation:$animationTime ease-out infinite lightUpDotShadow;
+      animation-delay: $animationTime * (6/6); 
+  }
+  animation-delay: $animationTime * (6/6);
+}
+
+.dottedLine1{
+    height:222px;
+    width:108px;
+    position: absolute;
+    bottom:80px;
+    left:109px;
+    border-bottom:3px dashed rgba(72, 193, 187, 0.664);
+    border-left:3px dashed rgba(72, 193, 187, 0.664);
+    border-bottom-left-radius: 10px;
+    z-index:0;
+   
+}
+
+
+
+
+
+
+@keyframes lightUpDot{
+  0%{
+      background-color:rgb(231, 231, 231);
+ 
+  }
+  10%{
+      
+      background-color: $onColor;
+
+  }
+  50%{
+      background-color:rgb(231, 231, 231);
+      
+  }
+}
+
+@keyframes lightUpDotShadow{
+  0%{
+      box-shadow: none; 
+  }
+  10%{
+      
+      box-shadow: 0 0 3px white, 0 0 6px $onColor, 0 0 8px $onColor;
+  }
+  50%{
+      box-shadow: none; 
+  }
+}
+

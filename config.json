@@ -1,0 +1,65 @@
+{
+    "dataRefreshDelay": 1515, 
+    "haipe": {
+        "client": false, 
+        "server": false, 
+        "status": false
+    }, 
+    "interface": {
+        "dataRefreshDelay": 1520, 
+        "lan": [
+            {
+                "ip": "119.229.152.500"
+            }
+        ], 
+        "portForward": [
+            1, 
+            2, 
+            3, 
+            4, 
+            5, 
+            6, 
+            7, 
+            8, 
+            9, 
+            10, 
+            11, 
+            39, 
+            45
+        ], 
+        "wan": [
+            {
+                "IP": "119.229.152.122", 
+                "gatewayIP": "127.0.0.1:3000", 
+                "name": "SAT1", 
+                "proxyIP": "8.8.8.8", 
+                "status": false, 
+                "subflow": 1
+            }, 
+            {
+                "IP": "73.150.74.137", 
+                "gatewayIP": "125.19.244.217", 
+                "name": "Test Sat", 
+                "proxyIP": "1.1.1.1", 
+                "status": true, 
+                "subflow": 2
+            }, 
+            {
+                "IP": "115.162.227.227", 
+                "gatewayIP": "127.0.0.1", 
+                "name": "SAT TEST", 
+                "proxyIP": "1.0.0.1", 
+                "status": true, 
+                "subflow": 3
+            }, 
+            {
+                "IP": "74.251.10.118", 
+                "gatewayIP": "64.17.59.3", 
+                "name": "SAT4", 
+                "proxyIP": "8.8.8.8", 
+                "status": false, 
+                "subflow": 4
+            }
+        ]
+    }
+}

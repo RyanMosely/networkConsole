@@ -1,0 +1,66 @@
+.userSettingsTitle {
+  font-family: 'Lato','Helvetica Neue',Arial,Helvetica,sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px; }
+
+.userContainer {
+  margin: 20px; }
+
+.userContent {
+  /*margin: 20px;*/ }
+
+.buttonOne {
+  padding: 20px; }
+
+.ipLabel {
+  margin-right: 20px; }
+
+.userRows {
+  margin: 20px; }
+
+.userRowOne {
+  margin-right: 22px;
+  font-weight: bold; }
+
+.userRowTwo {
+  margin-right: 26px;
+  font-weight: bold; }
+
+.userRowThree {
+  margin-right: 10px; }
+
+.userButton {
+  display: inline-block;
+  text-align: left;
+  padding-left: 0.75em !important;
+  border-radius: 0 0.28571rem 0.28571rem 0;
+  /* height: 36px; */
+  margin-left: 70px !important;
+  /* margin-bottom: 6px!important; */
+  top: -2px; }
+
+@media only screen and (max-width: 740px) and (min-width: 519px) {
+  .userButton {
+    display: inline-block;
+    text-align: left;
+    padding-left: 0.75em !important;
+    border-radius: 0 0.28571rem 0.28571rem 0;
+    /* height: 36px; */
+    margin-left: 154px !important;
+    margin-top: 15px !important;
+    /* margin-bottom: 6px!important; */
+    top: -2px; } }
+
+@media screen and (max-width: 518px) {
+  .userButton {
+    display: inline-block;
+    text-align: left;
+    padding-left: 0.75em !important;
+    border-radius: 0 0.28571rem 0.28571rem 0;
+    /* height: 36px; */
+    margin-left: 1px !important;
+    margin-bottom: 56px !important;
+    top: 8px; } }

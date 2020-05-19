@@ -1,0 +1,104 @@
+.overallConnection {
+  font-size: 100px;
+  color: grey;
+  width: 117.7px;
+  height: 115.5px;
+  padding: 11px 5.5px 11px 16.5px;
+  background-color: #cecccc;
+  border: 4px solid #929292;
+  border-radius: 50%;
+  box-shadow: inset 0 0 20px #000000;
+  z-index: 12; }
+
+.overallConnection_animate {
+  animation: 3s infinite outterPulse;
+  color: #242424;
+  border: 4px solid #242424;
+  background: white;
+  background: linear-gradient(61deg, white 0%, #dbdbdb 72%, #797979 100%); }
+
+.imageBuild {
+  width: 88px;
+  height: 66px;
+  position: relative;
+  border: none; }
+
+.iconPiece {
+  position: absolute; }
+
+.icon-signal_tower {
+  top: 41.25px;
+  left: 18.7px;
+  font-size: 49.5px; }
+
+.icon-signal_inner {
+  top: 17.05px;
+  left: 24.31px;
+  font-size: 24.75px; }
+
+.icon-signal_inner_animate {
+  animation: 3s linear infinite signalMoveBottom;
+  animation-delay: 0s; }
+
+.icon-signal_mid {
+  top: 11.99px;
+  left: 11.66px;
+  font-size: 35.75px; }
+
+.icon-signal_mid_animate {
+  animation: 3s linear infinite signalMoveMid;
+  animation-delay: 1s; }
+
+.icon-signal_outter {
+  top: 2.75px;
+  left: 0.55px;
+  font-size: 55px; }
+
+.icon-signal_outter_animate {
+  animation: 3s linear infinite signalMoveTop;
+  animation-delay: 2s; }
+
+.imageBuild::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  margin-left: -17.875px;
+  margin-top: -12.65px;
+  width: 110px;
+  height: 55px;
+  border-top-left-radius: 220px;
+  border-top-right-radius: 220px;
+  background: linear-gradient(rgba(255, 255, 255, 0.918), rgba(255, 255, 255, 0.123)); }
+
+@keyframes signalMoveBottom {
+  49% {
+    color: grey;
+    text-shadow: none; }
+  50% {
+    color: #2CD5C4;
+    text-shadow: 0 0 10px white, 0 0 5px white, 0 0 6px #2CD5C4, 0 0 8px #2CD5C4, 0 0 10px; } }
+
+@keyframes signalMoveMid {
+  49% {
+    color: grey;
+    text-shadow: none; }
+  50% {
+    color: #2CD5C4;
+    text-shadow: 0 0 10px white, 0 0 5px white, 0 0 6px #2CD5C4, 0 0 8px #2CD5C4, 0 0 10px; } }
+
+@keyframes signalMoveTop {
+  49% {
+    color: grey;
+    text-shadow: none; }
+  50% {
+    color: #2CD5C4;
+    text-shadow: 0 0 10px white, 0 0 5px white, 0 0 6px #2CD5C4, 0 0 8px #2CD5C4, 0 0 10px; } }
+
+@keyframes outterPulse {
+  0% {
+    border-color: #242424; }
+  50% {
+    border-color: #2CD5C4; }
+  100% {
+    border-color: #242424; } }

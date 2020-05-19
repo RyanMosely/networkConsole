@@ -1,0 +1,119 @@
+.lightUpPoint3 {
+  height: 15px;
+  width: 20px;
+  position: absolute;
+  left: 190px;
+  top: 350px;
+  background-color: #e7e7e7;
+  box-shadow: inset 0 0 3px #818181;
+  border-radius: 10px; }
+
+.point3-1 {
+  left: 453px;
+  top: 315px;
+  transform: rotate(90deg); }
+  .point3-1 .shadowBox {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    background-color: rgba(253, 253, 253, 0); }
+
+.point3-1_animated {
+  animation: 3s ease-out infinite lightUpDot;
+  animation-delay: 0s; }
+  .point3-1_animated .shadowBox {
+    animation: 3s ease-out infinite lightUpDotShadow;
+    animation-delay: 0s; }
+
+.point3-2 {
+  left: 453px;
+  top: 275px;
+  transform: rotate(90deg); }
+  .point3-2 .shadowBox {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    background-color: rgba(253, 253, 253, 0); }
+
+.point3-2_animated {
+  animation: 3s ease-out infinite lightUpDot;
+  animation-delay: 0.75s; }
+  .point3-2_animated .shadowBox {
+    animation: 3s ease-out infinite lightUpDotShadow;
+    animation-delay: 0.75s; }
+
+.point3-3 {
+  left: 453px;
+  top: 233px;
+  transform: rotate(90deg);
+  transform: rotate(90deg); }
+  .point3-3 .shadowBox {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    background-color: rgba(253, 253, 253, 0); }
+
+.point3-3_animated {
+  animation: 3s ease-out infinite lightUpDot;
+  animation-delay: 1.5s; }
+  .point3-3_animated .shadowBox {
+    animation: 3s ease-out infinite lightUpDotShadow;
+    animation-delay: 1.5s; }
+
+.point3-4 {
+  left: 453px;
+  top: 195px;
+  transform: rotate(90deg); }
+  .point3-4 .shadowBox {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    background-color: rgba(253, 253, 253, 0); }
+
+.point3-4_animated {
+  animation: 3s ease-out infinite lightUpDot;
+  animation-delay: 2.25s; }
+  .point3-4_animated .shadowBox {
+    animation: 3s ease-out infinite lightUpDotShadow;
+    animation-delay: 2.25s; }
+
+.dottedLine3-1 {
+  height: 162px;
+  width: 37px;
+  position: absolute;
+  bottom: 141px;
+  left: 427px;
+  border-right: 3px dashed rgba(72, 193, 187, 0.664);
+  z-index: 0; }
+
+@keyframes lightUpDot {
+  0% {
+    background-color: #e7e7e7; }
+  10% {
+    background-color: #28e7e1; }
+  50% {
+    background-color: #e7e7e7; } }
+
+@keyframes lightUpDotShadow {
+  0% {
+    box-shadow: none; }
+  10% {
+    box-shadow: 0 0 3px white, 0 0 6px #28e7e1, 0 0 8px #28e7e1; }
+  50% {
+    box-shadow: none; } }

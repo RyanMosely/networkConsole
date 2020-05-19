@@ -1,0 +1,16 @@
+.ui.header {
+  margin-top: 14px !important;
+  margin-left: 10px !important; }
+
+.header {
+  margin-left: 0px !important; }
+
+.ui.cards {
+  margin-left: 10px !important; }
+
+.ui.divider {
+  margin-left: 10px !important; }
+
+@media only screen and (max-width: 536px) and (min-width: 500px) {
+  .modemContainer {
+    width: 260px; } }

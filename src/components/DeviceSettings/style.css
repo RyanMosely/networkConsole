@@ -1,0 +1,78 @@
+.deviceSettingsTitle {
+  font-family: 'Lato','Helvetica Neue',Arial,Helvetica,sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px; }
+
+.deviceContainer {
+  margin: 20px; }
+
+.deviceContent {
+  /*margin: 20px;*/ }
+
+.buttonOne {
+  padding: 20px; }
+
+.ipLabel {
+  margin-right: 20px; }
+
+.ipRows {
+  margin: 20px;
+  font-weight: bold; }
+
+.rowOne {
+  margin-right: 52px;
+  font-weight: bold; }
+
+.rowTwo {
+  margin-right: 25px;
+  font-weight: bold; }
+
+.rowThree {
+  margin-right: 10px; }
+
+.deviceButton {
+  display: inline-block;
+  text-align: left;
+  padding-left: 0.75em !important;
+  border-radius: 0 0.28571rem 0.28571rem 0;
+  /* height: 36px; */
+  margin-left: 70px !important;
+  /* margin-bottom: 6px!important; */
+  top: -2px; }
+
+@media only screen and (max-width: 740px) and (min-width: 519px) {
+  .deviceButton {
+    display: inline-block;
+    text-align: left;
+    padding-left: 0.75em !important;
+    border-radius: 0 0.28571rem 0.28571rem 0;
+    /* height: 36px; */
+    margin-left: -177px !important;
+    margin-top: 48px !important;
+    /* margin-bottom: 6px!important; */
+    top: -2px; } }
+
+@media only screen and (max-width: 518px) and (min-width: 506px) {
+  .deviceButton {
+    display: inline-block;
+    text-align: left;
+    padding-left: 0.75em !important;
+    border-radius: 0 0.28571rem 0.28571rem 0;
+    /* height: 36px; */
+    margin-left: 89px !important;
+    margin-bottom: 56px !important;
+    top: 8px; } }
+
+@media only screen and (max-width: 505px) {
+  .deviceButton {
+    display: inline-block;
+    text-align: left;
+    padding-left: 0.75em !important;
+    border-radius: 0 0.28571rem 0.28571rem 0;
+    /* height: 36px; */
+    margin-left: 89px !important;
+    margin-bottom: 56px !important;
+    top: 8px; } }
