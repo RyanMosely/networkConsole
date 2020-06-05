@@ -7,7 +7,25 @@
 instead of typing it through the command line. GUI is responsible for displaying current configuration, getting user inputs and sending requests to a flask server in order to execute python scripts. REACT javascript library is used to implement the Front End. Back end is created using Flask web framework which interfaces with the existing Python scripts.
 
 ## Installation: ##
+   - Click the clone or Download button at the top of the corner of the repository and click the copy to clipboard button.
+   -  In your terminal, type 'git clone' and paste the link in your desired directory location and press enter.
+   - Type 'yarn install' and press enter
    
+   ### Starting Server ###
+      Within the terminal:
+   - Type 'pip install flask'
+   - Type 'source venv/bin/activate' and press enter
+   - Type 'export FLASK_APP=hello.py' and press enter
+   - Type 'p' and press enter
+   
+   ### Opening Application ###
+      Within the terminal:
+   - Type 'yarn start' and press enter, the application should now open.
+   
+      Within the application: 
+   - The home page will be visible, but to access any other page you need to log in: 
+   Within the username field type in 'admin' and witin the password field type 'admin' and click submit, you will then have access
+   to the rest of the applicaiton.
 
 ## Usage: ##
 
