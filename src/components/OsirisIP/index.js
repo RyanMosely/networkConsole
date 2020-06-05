@@ -9,7 +9,7 @@ function Osiris() {
    
 
       <a target="_blank" rel="noopener noreferrer" href="http://www.recipepuppy.com/about/api/">
-        Osiris IP Content
+        Intelio IP Content
       </a>
     </div>
   );

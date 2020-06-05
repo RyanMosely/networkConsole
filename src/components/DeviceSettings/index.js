@@ -67,11 +67,11 @@ function DeviceSettings() {
   return (
   
     <div className="deviceContatiner deviceContent">
- <div className="deviceSettingsTitle deviceContent">Osiris IP</div>
+ <div className="deviceSettingsTitle deviceContent">Intelio IP</div>
 
  <Divider />
        
- <div className="ipRows"><Row><span className="ipLabel rowOne">Osiris IP:</span> 
+ <div className="ipRows"><Row><span className="ipLabel rowOne">Intelio IP:</span> 
  <TextField className="deviceContent" defaultValue= { osirisIP } onChange={e => setChangeOsirisIP(e.target.value)} />
  <Button className="button buttonOne deviceButton" onClick={ osirisFunc } attached="right">Submit</Button></Row></div>
 

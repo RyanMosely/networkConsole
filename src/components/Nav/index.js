@@ -36,7 +36,7 @@ function Nav() {
     <img className="osiris" src={osiris} alt="osiris logo"></img> 
     </div>
     <div className="col">
-    <div className="mymyrBrand"><span className="mymyrTitle">Mimyr</span> <span className="mymyrDivider">|</span> <span className="mymyrOsiris">Osiris Console</span></div>
+    <div className="mymyrBrand"><span className="mymyrTitle">Intelio</span> <span className="mymyrDivider">|</span> <span className="mymyrOsiris">Network Console</span></div>
     
     </div>
   </div>

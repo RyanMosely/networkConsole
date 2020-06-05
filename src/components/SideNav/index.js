@@ -180,7 +180,7 @@ export default function MenuExampleHeadewrVertical() {
                                                 name='Change Device Settings'
                                                 active={activeItem === 'Change Device Settings'}
                                                 onClick={event => handleItemClick(event, 'Change Device Settings', '/devicesettings')}
-                                                ><i class="fas fa-cog"></i> Osiris IP
+                                                ><i class="fas fa-cog"></i> Intelio IP
                                             </Menu.Item>
                                         </Link>
                                     </Menu.Menu>

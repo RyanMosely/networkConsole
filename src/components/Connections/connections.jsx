@@ -37,7 +37,7 @@ export default class Connection extends Component{
             <ConnectionPoint subFlow = "subflow_3" connected = {this.props.subflow3Connected}></ConnectionPoint>
             <ConnectionPoint subFlow = "subflow_4" connected = {this.props.subflow4Connected}></ConnectionPoint>
             <div className = "OSIRISBOX">
-        OSIRIS
+        INTELIO
             </div>
             <LeftLine connected = {this.props.subflow1Connected}></LeftLine>
             <LeftMidLine connected = {this.props.subflow2Connected}></LeftMidLine>
