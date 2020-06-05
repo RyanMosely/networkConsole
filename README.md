@@ -12,17 +12,17 @@ instead of typing it through the command line. GUI is responsible for displaying
    - Type 'yarn install' and press enter
    
    ### Starting Server ###
-      Within the terminal:
+   Within the terminal:
    - Type 'pip install flask'
    - Type 'source venv/bin/activate' and press enter
    - Type 'export FLASK_APP=hello.py' and press enter
    - Type 'p' and press enter
    
    ### Opening Application ###
-      Within the terminal:
+   Within the terminal:
    - Type 'yarn start' and press enter, the application should now open.
    
-      Within the application: 
+   Within the application: 
    - The home page will be visible, but to access any other page you need to log in: 
    Within the username field type in 'admin' and witin the password field type 'admin' and click submit, you will then have access
    to the rest of the applicaiton.
