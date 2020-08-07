@@ -16,7 +16,7 @@ instead of typing it through the command line. GUI is responsible for displaying
    - Type 'pip install flask'
    - Type 'source venv/bin/activate' and press enter
    - Type 'export FLASK_APP=hello.py' and press enter
-   - Type 'p' and press enter
+   - Type 'p' or 'python -m flask run' and press enter
    
    ### Opening Application ###
    Within the terminal:
